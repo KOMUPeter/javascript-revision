@@ -1,0 +1,15 @@
+html , body {
+    margin: 0;
+}
+div {
+    background-color: rgb(232, 241, 238);
+    text-align: center;
+}
+input {
+text-align: center;
+}
+h1 , p {
+    text-align: center;
+    padding: 4px;
+
+}

@@ -1,0 +1,16 @@
+img {
+    height: 800px;
+
+}
+
+body {
+    /* fallback color if gradients are not supported */
+    background-color: #000000; 
+
+    /* gradient background */
+    background-image: radial-gradient(circle , rgb(37, 32, 22), transparent), linear-gradient(to bottom, transparent, #000000);
+    /* background-size: 100% 50%, 100% 50%; */
+    /* background-repeat: no-repeat; */
+}
+
+
