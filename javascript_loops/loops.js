@@ -35,6 +35,11 @@ for (let i = 1; i <= height; i++) {
 
 // Print the trunk of the tree
 let trunkSpaces = ' '.repeat(height - 1);
+let trunk = trunkSpaces + '*' + '\n' + trunkSpaces + '*';
+
+tree += trunk;
+
+
 console.log(trunkSpaces + '*');
 console.log(trunkSpaces + '*');
 
@@ -67,10 +72,14 @@ numbers.forEach((number, index) => {
 console.log('*********************');
 
 
-// for in loop
+// for in loop THE same as in PHP
 const person = { name: 'John', age: 30, city: 'New York' };
 for (let key in person) {
-  if (person.hasOwnProperty(key)) {
+
     console.log(`${key}: ${person[key]}`);
-  }
+
 }
+
+// foreach ($numbers as $key => $value) {
+//   echo "$key: $value\n";
+// }
