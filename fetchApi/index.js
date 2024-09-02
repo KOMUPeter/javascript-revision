@@ -1,11 +1,11 @@
-// FETCH IS USED TO GET THE INFORMATIONS FROM A URL SOURCE LIKE API IN SYMFONY
+// FETCH IS USED TO GET THE INFORMATIONS FROM A URL SOURCE
 // Fetch function has two properties 
 // 1, url
 // 2, optional eg post, get e.t.c
 
 // fetch("https://jsonplaceholder.typicode.com/users/4")
-// // note you have a 404 error because if you add the id of the user because fetch always succed so make sure to check if res is ok....!! so do if...
-//     .then(res => {
+// // note you have a 404 error because if you add the id of the user because fetch always succeed so make sure to check if res is ok....!! so do if...
+//     .then((res) => {
 //         if (res.ok) {
 //             console.log('sucess')
 //         } else {
@@ -58,3 +58,4 @@
 })
 .then(data => console.log(data))
 .catch(error => console.error('Error:', error));  // Add a catch block to handle errors
+
