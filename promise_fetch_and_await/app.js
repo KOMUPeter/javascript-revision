@@ -55,3 +55,4 @@ document.getElementById('connectButton').addEventListener('click', async () => {
         document.getElementById('result').innerText = `Failed to connect: ${error.message}`;
     }
 });
+
